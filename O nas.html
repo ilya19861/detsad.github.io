@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>О нас</title>
+	<link rel="shortcut icon" href="/favicon.ico" />	
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+	<header>
+	    	<div class="header">
+	    		<div class="logo"><img src="img/logo1.png" height="240px">
+	    			
+	    		</div>
+	    		    <div class="telefon"><a href="+7 912 721 55 85"><img src="img/tel.png"></a>+7 919 500 49 11<br>         26 24 02</div>
+	    		        <div class="nav">
+	    				        <ul class="menu">
+                                     <li><a href="index.html" class="active">Главная</a></li>
+                                     <li><a href="novosty.html">Новости</a></li>
+                                     <li><a href="programmy.html">Программы</a></li>
+                                     <li><a href="stoimost.html">Стоимость</a></li>
+                                     <li><a href="#">Галерея</a></li>
+                                     <li><a href="index.html#contacty">Контакты</a></li>
+                                     <li><a href="#">О Нас</a></li>
+                                     <li class="slider"></li>
+                                </ul>
+	    			    </div>
+	    			    <div id="myNav" class="overlay">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                          <div class="overlay-content">
+                            <a href="index.html">Главная</a>
+                            <a href="novosty.html">Новости</a>
+                            <a href="programmy.html">Программы</a>
+                            <a href="stoimost.html">Стоимость</a>
+                            <a href="#">Галерея</a>
+                            <a href="index.html#contacty">Контакты</a>
+                            <a href="O nas.html">О Нас</a>
+                           </div>
+                        </div>
+                        <div class="responsive"><span style="cursor:pointer" onclick="openNav()"><img src="./icon.png"></span></div>
+	        </div>
+	    </header>
+	    <div id="block_o_nas">
+	    	<div id="foto"><img src="img/О нас.png"></div>
+	    	   <div id="text">
+	    		<p>Дорогие родители, бабушки, дедушки!
+
+	    		Детский досуговый центр "Чудо-сад" - это не только альтернативный детский сад, где позаботятся о вашем "сокровище", но и помогут вашему ребенку стать более самостоятельным, уверенным в себе и развиваться соответственно возрасту.
+
+	    		В этом ему помогут наши опытные, любящие детей педагоги, которые найдут подход именно к вашему ребенку. Также у нас в штате работает психолог, логопед-дефектолог. Разработана авторская программа по развитию речи детей от года, что так необходимо детям в эпоху различных гаджетов и интернета.
+
+	    		Проводятся занятия англиским языком для детей с 2х лет, что немаловажно для современных деток и безумно им интересно.  Есть хореограф, проводящий занятия ритмикой, а также музыкальный руководитель.Занятия музыкой помогают детям быстрее наращивать словарный запас, развавают способность слушать и усваивать информацию. А также развивают любовь к творчеству!
+
+	    		Кроме этого, в нашем центре особое внимание уделяется заботе о физическом развитии и здоровье вашего малыша.У нас есть мини-спортзал с детскими тренажерами. Санитарные условия отвечают нормам СанПиНа, помещения подвергают кварцеванию. Также 2 дня в неделю детей наблюдает врач-педиатр. 
+
+	    		Детишки получают полноценное 5-разовое питание (меню составляется опытной диетсестрой с учетом потребностей растущего организма).
+
+	    		Яркое и оригинальное оформление помещений придется по душе не только вашим детям, но и вам. Ребятам гораздо интреснее и веселее проводить время в красивом зале! Сюда они будут спешить снова и снова!
+
+	    		Помимо групп полного дня и кратковременного пребывания "Чудо-сад" предлагает  вам и различные студии развития. Помогите своему малышу найти занятие по душе! На сегодняшний день идет набор на занятия "Мама и малыш", "Пескотерапия", "Живопись", "Болтунишка", "Умные игры", "Подготовка к школе"(подробнее в разделе программы).
+
+	    		Кроме того, "Чудо-сад" не забывает и о Вас, уважаемые родители, и непрерывно проводит всеразличные акции и скидки, что немаловажно в существующей экономической ситуации.
+	    		
+	    		"Чудо-сад" - трепетная забота о вашем малыше!
+	    	   </div>
+	    </div>
+	    <footer>
+		<div class="footer">
+			<div class="icon_vk"><a href="#"><img src="img/vk.png"></a></div>
+			<div class="nomer"><span>+7 919 500 49 11</span></div>
+			<div class="copyr">© 2020 "Чудо-сад" частный детский сад. </div>
+		</div>
+	</footer>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/verh.png"></button>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+<script type="text/javascript" src="./my/my.js"></script>
+</body>
+</html>
